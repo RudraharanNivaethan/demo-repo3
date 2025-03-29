@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #b666d2;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+ul,li{
+    display: inline;
+}
+
+
+li{
+    color: white;
+    font-size: 18px;
+}
+
+li:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.header h1{
+    margin-bottom: 10px;
+}
+
+img{
+    height: 200px;
+    width: 220px;
+    object-fit: cover;
+    width: 100%; /* Makes image take full width of the item */
+    border-radius: 10px; /* Optional: Makes corners rounded */
+}
+
+.item{
+    display: inline-block;
+    border:palevioletred 2px solid;
+    min-height: 220px;
+    width: 220px;
+    border-radius: 10px; /* Optional: Makes corners rounded */
+}
+
+.item:hover{
+    background-color: lightpink;
+    color: white;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.order{
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.contact{
+    background-color: #b666d2;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+/*
+.contact table{
+    display: inline-block;
+}
+The reliable solution is below. Avoid the one in comments as it won't always work.
+*/
+.contact table {
+    margin: auto;
+}
+
+.send{
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    width: 30%;
+}
+
+.form, .send{
+    padding: 5px;
+}
+
